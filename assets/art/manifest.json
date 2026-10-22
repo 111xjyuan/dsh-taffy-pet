@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "outfits": [
+    {
+      "id": "detective",
+      "name": "侦探服",
+      "file": "detective.png",
+      "w": 455,
+      "h": 1100,
+      "small": "small/small-detective.png",
+      "smallW": 354,
+      "smallH": 700
+    },
+    {
+      "id": "1883",
+      "name": "1883制式",
+      "file": "1883.png",
+      "w": 457,
+      "h": 1080,
+      "small": "small/small-1883.png",
+      "smallW": 364,
+      "smallH": 700
+    },
+    {
+      "id": "idol",
+      "name": "偶像服",
+      "file": "idol.png",
+      "w": 539,
+      "h": 1100,
+      "small": "small/small-idol.png",
+      "smallW": 385,
+      "smallH": 700
+    },
+    {
+      "id": "berserker",
+      "name": "狂战士",
+      "file": "berserker.png",
+      "w": 467,
+      "h": 1042,
+      "small": "small/small-berserker.png",
+      "smallW": 343,
+      "smallH": 700
+    },
+    {
+      "id": "witch",
+      "name": "魔女",
+      "file": "witch.png",
+      "w": 541,
+      "h": 950
+    },
+    {
+      "id": "summer",
+      "name": "夏装",
+      "file": "summer.png",
+      "w": 486,
+      "h": 1100,
+      "small": "small/small-summer.png",
+      "smallW": 439,
+      "smallH": 700
+    }
+  ],
+  "expressions": [
+    {
+      "id": "happy",
+      "name": "开心",
+      "file": "happy.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "smile",
+      "name": "微笑",
+      "file": "smile.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "surprised",
+      "name": "惊讶",
+      "file": "surprised.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "dizzy",
+      "name": "晕了",
+      "file": "dizzy.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "shy",
+      "name": "害羞",
+      "file": "shy.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "speechless",
+      "name": "无语",
+      "file": "speechless.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "sad",
+      "name": "难过",
+      "file": "sad.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "angry",
+      "name": "生气",
+      "file": "angry.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "proud",
+      "name": "得意",
+      "file": "proud.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "hush",
+      "name": "别急",
+      "file": "hush.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "kneel",
+      "name": "磕头",
+      "file": "kneel.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "wronged",
+      "name": "委屈",
+      "file": "wronged.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "heart",
+      "name": "比心",
+      "file": "heart.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "sob",
+      "name": "大哭",
+      "file": "sob.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "laugh",
+      "name": "大笑",
+      "file": "laugh.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "mock",
+      "name": "嘲笑",
+      "file": "mock.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "star",
+      "name": "星星眼",
+      "file": "star.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "confuse",
+      "name": "疑惑",
+      "file": "confuse.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "drool",
+      "name": "馋了",
+      "file": "drool.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "sparkle",
+      "name": "闪亮登场",
+      "file": "sparkle.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "kiss",
+      "name": "亲亲",
+      "file": "kiss.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "punch",
+      "name": "喵喵拳",
+      "file": "punch.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "smug",
+      "name": "抱胸",
+      "file": "smug.png",
+      "w": 360,
+      "h": 360
+    },
+    {
+      "id": "cry",
+      "name": "哭哭",
+      "file": "cry.png",
+      "w": 360,
+      "h": 360
+    }
+  ]
+}
