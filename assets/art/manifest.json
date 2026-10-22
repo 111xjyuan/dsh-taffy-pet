@@ -45,14 +45,14 @@
       "id": "witch",
       "name": "魔女",
       "file": "witch.png",
-      "w": 541,
-      "h": 950
+      "w": 625,
+      "h": 1100
     },
     {
       "id": "nurse",
       "name": "保健委员",
       "file": "nurse.png",
-      "w": 545,
+      "w": 639,
       "h": 1100
     },
     {
