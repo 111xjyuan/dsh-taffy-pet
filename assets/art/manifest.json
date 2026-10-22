@@ -49,6 +49,13 @@
       "h": 950
     },
     {
+      "id": "nurse",
+      "name": "保健委员",
+      "file": "nurse.png",
+      "w": 545,
+      "h": 1100
+    },
+    {
       "id": "summer",
       "name": "夏装",
       "file": "summer.png",
