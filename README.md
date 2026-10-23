@@ -187,3 +187,10 @@ Billing/host layer is inherited from [DeepSeek-Balance-Whale-Widget](https://git
 
 MIT。宿主层与计费逻辑来自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)。
 角色形象「永雏塔菲」版权归其著作权人所有，本项目仅为非商用的个人桌宠实现。
+
+## 摸头互动
+
+按住她的**脑袋**（立绘上方约 32% 高度、水平中间 62% 的矩形区域）左右蹭：
+- **不会移动位置**（拖动身体才移动）
+- 每次蹭触发一次开心的歪头抖动 + 爱心 + 粉气泡
+- 播放「摸头专用语音」：默认从语音池随机，可在 声音 → 摸头语音 里指定某一条，再点一次「恢复随机」取消
