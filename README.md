@@ -70,7 +70,7 @@ npm i dsh-taffy-pet        # 或 pnpm add / 用 link: 指向本地目录
 
 ## 3D 形态（实验）
 
-设置 → 形态 → **3D 模型**，会用 [three.js](https://threejs.org/) + [@pixiv/three-vrm](https://github.com/pixiv/three-vrm)
+**换装** 页顶部的 `2D 立绘 / 3D 模型` 切换（设置页不再有形态选项），会用 [three.js](https://threejs.org/) + [@pixiv/three-vrm](https://github.com/pixiv/three-vrm)
 在你的桌宠位置上渲染一个 VRM 模型，并程序化驱动呼吸、眨眼、视线跟随鼠标、马尾/裙摆物理。
 
 模型放在 `~/.dsh/taffy-pet/vrm/`（`.vrm` / `.glb`），菜单里可以直接切换；找不到模型会自动退回 2D。
@@ -78,7 +78,12 @@ npm i dsh-taffy-pet        # 或 pnpm add / 用 link: 指向本地目录
 > 官方模型：永雏塔菲本人在 Steam 创意工坊发布过
 > [官方 MMD 模型合集](https://steamcommunity.com/workshop/filedetails/?id=2903889429)（2.0 版带 VRM）。
 > 订阅后在 Steam 里「浏览本地文件」，把 `.vrm` 复制到上面这个目录即可。
+> 合集里 `永雏塔菲MMD_2.0` 带 VRM（Q 版全身，官方命名 `永雏塔菲_0804.vrm`），
+> 另两条 `1883_0915` / `兔女郎` 只有 MMD 的 `.pmx`，不能直接用。
 > 该模型仅限个人二创使用，请遵守作者的授权说明。
+
+> 已下载的模型在本地留了一份备份：`D:	affy-models-backup\`（创意工坊三个条目的完整拷贝），
+> 即使以后退订/退款也不会丢。
 
 3D 相关路由：`/dsh-whale/vrm-runtime.js`（运行时）、`/dsh-whale/vrm-list.json`（模型列表）、
 模型文件复用 `/dsh-whale/taffy-file?p=vrm/<file>`。
