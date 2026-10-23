@@ -9,7 +9,11 @@
       "h": 1100,
       "small": "small/small-detective.png",
       "smallW": 354,
-      "smallH": 700
+      "smallH": 700,
+      "file2x": "detective@2x.png",
+      "w2x": 910,
+      "h2x": 2200,
+      "small2x": "small/small-detective@2x.png"
     },
     {
       "id": "1883",
@@ -19,7 +23,11 @@
       "h": 1080,
       "small": "small/small-1883.png",
       "smallW": 364,
-      "smallH": 700
+      "smallH": 700,
+      "file2x": "1883@2x.png",
+      "w2x": 914,
+      "h2x": 2160,
+      "small2x": "small/small-1883@2x.png"
     },
     {
       "id": "idol",
@@ -29,7 +37,11 @@
       "h": 1100,
       "small": "small/small-idol.png",
       "smallW": 385,
-      "smallH": 700
+      "smallH": 700,
+      "file2x": "idol@2x.png",
+      "w2x": 1078,
+      "h2x": 2200,
+      "small2x": "small/small-idol@2x.png"
     },
     {
       "id": "berserker",
@@ -39,21 +51,31 @@
       "h": 1042,
       "small": "small/small-berserker.png",
       "smallW": 343,
-      "smallH": 700
+      "smallH": 700,
+      "file2x": "berserker@2x.png",
+      "w2x": 934,
+      "h2x": 2084,
+      "small2x": "small/small-berserker@2x.png"
     },
     {
       "id": "witch",
       "name": "魔女",
       "file": "witch.png",
       "w": 625,
-      "h": 1100
+      "h": 1100,
+      "file2x": "witch@2x.png",
+      "w2x": 1250,
+      "h2x": 2200
     },
     {
       "id": "nurse",
       "name": "保健委员",
       "file": "nurse.png",
       "w": 639,
-      "h": 1100
+      "h": 1100,
+      "file2x": "nurse@2x.png",
+      "w2x": 1278,
+      "h2x": 2200
     },
     {
       "id": "summer",
@@ -63,7 +85,11 @@
       "h": 1100,
       "small": "small/small-summer.png",
       "smallW": 439,
-      "smallH": 700
+      "smallH": 700,
+      "file2x": "summer@2x.png",
+      "w2x": 972,
+      "h2x": 2200,
+      "small2x": "small/small-summer@2x.png"
     }
   ],
   "expressions": [
