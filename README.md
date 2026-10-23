@@ -82,7 +82,12 @@ npm i dsh-taffy-pet        # 或 pnpm add / 用 link: 指向本地目录
 > [官方 MMD 模型合集](https://steamcommunity.com/workshop/filedetails/?id=2903889429)（2.0 版带 VRM）。
 > 订阅后在 Steam 里「浏览本地文件」，把 `.vrm` 复制到上面这个目录即可。
 > 合集里 `永雏塔菲MMD_2.0` 带 VRM（Q 版全身，官方命名 `永雏塔菲_0804.vrm`），
-> 另两条 `1883_0915` / `兔女郎` 只有 MMD 的 `.pmx`，不能直接用。
+> 另两条 `1883_0915` / `兔女郎` 只有 MMD 的 `.pmx`。
+>
+> ⚠️ 实测：这两个 `.pmx` 被《桌面萌娘MMD4》**加密过**（文件头不是 `PMX `，内部是压缩块），
+> 直接喂给 three.js 的 MMDLoader 会报 "Unknown model file extension"，所以**不能拿来当 3D 模型**。
+> 插件本身支持普通 `.pmx`（放 `~/.dsh/taffy-pet/models/<名字>/model.pmx`，贴图平铺同目录），
+> 只是这两个需要先由别的工具导出成未加密的 pmx/vrm 才行。
 > 该模型仅限个人二创使用，请遵守作者的授权说明。
 
 > 已下载的模型在本地留了一份备份：`D:	affy-models-backup\`（创意工坊三个条目的完整拷贝），
