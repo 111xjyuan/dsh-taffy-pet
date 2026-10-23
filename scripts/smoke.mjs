@@ -22,6 +22,10 @@ check(/export\s+default/.test(entry) && /apply/.test(entry), '导出 default + a
 check(entry.includes('/dsh-whale/taffy-file'), '注册了素材路由')
 check(entry.includes('/dsh-whale/pet-state.json'), '注册了状态路由')
 check(fs.existsSync(path.join(ROOT, 'lib/seed-assets.js')), '有首次运行素材落盘逻辑')
+check(entry.includes('/dsh-whale/vrm-runtime.js'), '注册了 3D 运行时路由')
+check(entry.includes('/dsh-whale/vrm-list.json'), '注册了 3D 模型列表路由')
+const vrmRt = path.join(ROOT, 'lib/vrm-runtime.js')
+check(fs.existsSync(vrmRt) && fs.statSync(vrmRt).size > 100000, '3D 运行时打包文件存在（three + three-vrm）')
 
 console.log('\n[3] 美术素材')
 const artDir = path.join(ROOT, 'assets/art')

@@ -66,7 +66,22 @@ npm i dsh-taffy-pet        # 或 pnpm add / 用 link: 指向本地目录
 
 - **换装**：大菲 / 小菲切换 + 套装网格（小菲只显示有 Q 版素材的套装）
 - **声音**：按压音效开关、音量、语音池数量、全部语音列表（点哪条放哪条）
-- **设置**：大小、气泡 / 今日 / 本轮开关、刷新间隔、回到右下角、刷新余额、收起桌宠、打开素材目录、重新加载桌宠
+- **设置**：大小、形态（2D 立绘 / 3D 模型）、气泡 / 今日 / 本轮开关、刷新间隔、回到右下角、刷新余额、收起桌宠、打开素材目录、重新加载桌宠
+
+## 3D 形态（实验）
+
+设置 → 形态 → **3D 模型**，会用 [three.js](https://threejs.org/) + [@pixiv/three-vrm](https://github.com/pixiv/three-vrm)
+在你的桌宠位置上渲染一个 VRM 模型，并程序化驱动呼吸、眨眼、视线跟随鼠标、马尾/裙摆物理。
+
+模型放在 `~/.dsh/taffy-pet/vrm/`（`.vrm` / `.glb`），菜单里可以直接切换；找不到模型会自动退回 2D。
+
+> 官方模型：永雏塔菲本人在 Steam 创意工坊发布过
+> [官方 MMD 模型合集](https://steamcommunity.com/workshop/filedetails/?id=2903889429)（2.0 版带 VRM）。
+> 订阅后在 Steam 里「浏览本地文件」，把 `.vrm` 复制到上面这个目录即可。
+> 该模型仅限个人二创使用，请遵守作者的授权说明。
+
+3D 相关路由：`/dsh-whale/vrm-runtime.js`（运行时）、`/dsh-whale/vrm-list.json`（模型列表）、
+模型文件复用 `/dsh-whale/taffy-file?p=vrm/<file>`。
 
 ## 素材目录
 

@@ -1,7 +1,7 @@
 {
   "name": "dsh-taffy-pet",
-  "version": "0.3.1",
-  "description": "DeepSeek Harness 桌面宠物：永雏塔菲。透明立绘换装（大菲/小菲）、点击 Q 弹互动、按压随机语音、粉色余额气泡、四边吸附，附带小鲸鱼计费账本继承。",
+  "version": "0.4.0",
+  "description": "DeepSeek Harness 桌面宠物：永雏塔菲。透明立绘换装（大菲/小菲）+ 实验性 VRM 3D 形态、点击 Q 弹互动、按压随机语音、粉色余额气泡、四边吸附、甩抛物理、六档工作状态，附带小鲸鱼计费账本继承。",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -9,7 +9,10 @@
     "taffy",
     "永雏塔菲",
     "desktop-pet",
-    "widget"
+    "widget",
+    "vrm",
+    "three-vrm",
+    "3d"
   ],
   "type": "module",
   "main": "lib/index.js",
