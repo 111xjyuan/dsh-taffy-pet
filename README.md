@@ -38,6 +38,25 @@
 同一套渲染层（three-vrm + .vrma 真动捕 + 表情/语音），Electron 全屏透明窗口，鼠标只有压在塔菲身上才响应。
 
 
+## 加动作：MMD 的 .vmd 可以直接转成 .vrma
+
+塔菲的 MMD 动作包（B 站那些「关注塔菲谢谢喵」之类的配布）基本都是 `.vmd`，现在可以直接吃：
+
+```bash
+# 单个
+node tools/vmd2vrma.mjs 某个动作.vmd ~/.dsh/taffy-pet/vrm/anim/挥手.vrma
+
+# 一整个目录（自动放进动作目录）
+node tools/vmd2vrma-all.mjs D:/下载/塔菲动作包 --out=%USERPROFILE%/.dsh/taffy-pet/vrm/anim
+```
+
+转完重启页面（或重开桌宠），右键 → 动作 里就多出这些条目。
+
+原理：`.vmd` 里记的是 MMD 日文骨骼的关键帧，工具把它们映射到 VRM humanoid
+（`センター→hips`、`左腕→leftUpperArm`…），并从 `taffy.vrm` 里取 rest 姿态拼出
+标准 VRMA（`VRMC_vrm_animation` 扩展 + 动画通道）。骨骼名支持日文原版，也支持英文别名。
+
+
 ## 安装
 
 ```bash
