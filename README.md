@@ -204,3 +204,18 @@ MIT。宿主层与计费逻辑来自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](h
 - 点击桌宠会随机播一个动作，播完自动回到待机
 - 获取动作：任何 VRMA 文件都行（[VRMA 规范](https://vrm.dev/en/animation/vrma/)），Mixamo 动作可用 [vrm-mixamo-retargeter](https://github.com/saori-eth/vrm-mixamo-retargeter) 转换
 - 仓库里的示例动作来自 MIT/公开仓库：`yv-was-taken/desktop-waifu`（idle/talking/thinking/stretch/jump/spin）、`ruslanmv/3D-Avatar-Chatbot`（dance），仅供本地体验，商用请自行确认授权
+
+## 动作（真动捕）
+
+菜单 → **动作** 页：
+
+- **真动捕动作**：`~/.dsh/taffy-pet/vrm/anim/*.vrma`（官方 VRM Animation 格式）。点一下播一次，播完自动融回待机；待机本身也是循环的动捕数据。
+- **基础动作（程序生成）**：歪头 / 塔菲摇 / 唐笑 / 鞠躬 / 转圈。
+
+内置 18 段：待机、待机B、说话、思考、跳一下、转圈、伸懒腰、打哈欠、害羞、鼓掌、打招呼、道谢、耸肩、兴奋、走台步、甩手、点头、吃惊。
+
+想加新的：把 `.vrma` 丢进 `~/.dsh/taffy-pet/vrm/anim/` 再点「重新加载桌宠」。Mixamo 的动作可以用 [vrm-mixamo-retargeter](https://github.com/saori-eth/vrm-mixamo-retargeter) 转成 VRMA。
+
+## 语音
+
+`~/.dsh/whale-audio/` 下放 `<名字>.wav` 会**自动收录**进语音池（不用改 `audio.json`、不用重启）：文件名就是条目名，以 `_` 开头的会被忽略。
