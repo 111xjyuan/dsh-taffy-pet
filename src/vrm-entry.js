@@ -7,5 +7,19 @@ import {
   VRMExpressionPresetName,
   VRMHumanBoneName,
 } from '@pixiv/three-vrm'
+import {
+  VRMAnimationLoaderPlugin,
+  createVRMAnimationClip,
+} from '@pixiv/three-vrm-animation'
 
-window.TaffyVRM = { THREE, GLTFLoader, MMDLoader, VRMLoaderPlugin, VRMUtils, VRMExpressionPresetName, VRMHumanBoneName }
+window.TaffyVRM = {
+  THREE,
+  GLTFLoader,
+  MMDLoader,
+  VRMLoaderPlugin,
+  VRMUtils,
+  VRMExpressionPresetName,
+  VRMHumanBoneName,
+  VRMAnimationLoaderPlugin,
+  createVRMAnimationClip,
+}

@@ -194,3 +194,13 @@ MIT。宿主层与计费逻辑来自 [MeteorNOX/DeepSeek-Balance-Whale-Widget](h
 - **不会移动位置**（拖动身体才移动）
 - 每次蹭触发一次开心的歪头抖动 + 爱心 + 粉气泡
 - 播放「摸头专用语音」：默认从语音池随机，可在 声音 → 摸头语音 里指定某一条，再点一次「恢复随机」取消
+
+## 3D 动作（VRM Animation / .vrma）
+
+程序化关键帧做不出自然的动作，所以动作改由 **VRM Animation（.vrma）** 驱动：真动捕数据直接播在骨架上，待机、点击互动都是真人动作。
+
+- 动作文件放 `~/.dsh/taffy-pet/vrm/anim/`，换装页（3D 模型下）会列出可播放的动作，点一下就播
+- 默认待机动作 `idle.vrma`（可在 `ui-state.json` 的 `idleAnim` 改，留空则退回程序化待机）
+- 点击桌宠会随机播一个动作，播完自动回到待机
+- 获取动作：任何 VRMA 文件都行（[VRMA 规范](https://vrm.dev/en/animation/vrma/)），Mixamo 动作可用 [vrm-mixamo-retargeter](https://github.com/saori-eth/vrm-mixamo-retargeter) 转换
+- 仓库里的示例动作来自 MIT/公开仓库：`yv-was-taken/desktop-waifu`（idle/talking/thinking/stretch/jump/spin）、`ruslanmv/3D-Avatar-Chatbot`（dance），仅供本地体验，商用请自行确认授权
