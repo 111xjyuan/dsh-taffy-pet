@@ -28,6 +28,16 @@
 
 ---
 
+## 独立版（不需要 DSH）
+
+想把塔菲当普通桌宠用（不接 DSH、不计费）？看这个姊妹项目：
+
+- 仓库：https://github.com/111xjyuan/taffy-pet-desktop
+- 下载：https://github.com/111xjyuan/taffy-pet-desktop/releases/latest
+
+同一套渲染层（three-vrm + .vrma 真动捕 + 表情/语音），Electron 全屏透明窗口，鼠标只有压在塔菲身上才响应。
+
+
 ## 安装
 
 ```bash
